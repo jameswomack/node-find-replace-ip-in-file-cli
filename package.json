@@ -1,0 +1,33 @@
+{
+  "name": "node-find-replace-ip-in-file-cli",
+  "version": "1.0.0",
+  "description": "Find and replace IPs (v4 & v6) in a file. Used for security in test cases.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jameswomack/node-find-replace-ip-in-file-cli.git"
+  },
+  "keywords": [
+    "ip",
+    "find",
+    "replace",
+    "search",
+    "security",
+    "file",
+    "fs"
+  ],
+  "author": "James J. Womack (@james_womack)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jameswomack/node-find-replace-ip-in-file-cli/issues"
+  },
+  "homepage": "https://github.com/jameswomack/node-find-replace-ip-in-file-cli#readme",
+  "dependencies": {
+    "file-str-replace": "0.2.0",
+    "ip-regex": "1.0.3",
+    "yargs": "3.24.0"
+  }
+}
